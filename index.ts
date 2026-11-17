@@ -1,6 +1,6 @@
 import  z, { email, number, parse } from "zod";
 
-// object
+// object,option ,custom error,nullable,default value
   const user1 =z.object({
   name:z.string(),
   email:z.email({
